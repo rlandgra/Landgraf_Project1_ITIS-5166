@@ -1,0 +1,165 @@
+/*----------------------------------------------------------------BEGIN GENERAL CSS----------------------------------------------------------------*/
+/*Background Image*/
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*----------------------------------------------------------------END GENERAL CSS----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------BEGIN HEADER CSS----------------------------------------------------------------*/
+/*Sets the background color for the header and adds padding*/
+.websiteHeader {
+    overflow: hidden;
+    background-color: #00703C;
+    padding: 10px;
+}
+/*Sets the styling for the links within the header*/
+.websiteHeader a {
+    float: left;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+/*Sets the styling for what is being hovered on in the header*/
+.websiteHeader a:hover {
+    background-color: #B3A369;
+    color: white;
+}
+/*Sets the styling for the current element in the header*/
+.websiteHeader a.current {
+    background-color: #B3A369;
+    color: black;
+}
+/*Sets the styling for the links in the header*/
+.websiteHeaderLinks{
+    float: left;
+    padding-left: 275px;
+    padding-top: 10px;
+}
+
+.userSpecificNavigation{
+    float: right;
+    padding-top: 40px;
+    padding-right: 60px;
+}
+
+.generalSiteNavigation{
+    float: left;
+    padding-bottom: 25px;
+}
+
+hr{
+    margin-top: 150px;
+    margin-bottom: 25px;
+    border-color: #B3A369;
+    border-width: 3px;
+}
+/*----------------------------------------------------------------END HEADER CSS----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------BEGIN INDEX CSS----------------------------------------------------------------*/
+.aboutthewebsite{
+    background-color: #d4d4d4;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px ;
+    text-decoration: none;
+    border-radius: 60px;
+    width:80%;
+    box-shadow: 5px 5px 5px #616161;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 650px;
+    padding: 50px;
+}
+/*----------------------------------------------------------------END INDEX CSS----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------BEGIN CONNECTION CSS----------------------------------------------------------------*/
+.connectionAll{
+    background-color: #d4d4d4;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px ;
+    text-decoration: none;
+    border-radius: 60px;
+    width:80%;
+    box-shadow: 5px 5px 5px #616161;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 650px;
+    padding: 50px;
+}
+/*----------------------------------------------------------------END CONNECTION CSS----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------BEGIN CONNECTIONS CSS----------------------------------------------------------------*/
+.connectionsAll{
+    background-color: #d4d4d4;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px ;
+    text-decoration: none;
+    border-radius: 60px;
+    width:80%;
+    box-shadow: 5px 5px 5px #616161;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 650px;
+    padding: 50px;
+}
+/*----------------------------------------------------------------END CONNECTIONS CSS----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------BEGIN NEWCONNECTION CSS----------------------------------------------------------------*/
+.newConnectionAll{
+    background-color: #d4d4d4;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px ;
+    text-decoration: none;
+    border-radius: 60px;
+    width:80%;
+    box-shadow: 5px 5px 5px #616161;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 650px;
+    padding: 50px;
+}
+/*----------------------------------------------------------------END NEWCONNECTION CSS----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------BEGIN FOOTER CSS----------------------------------------------------------------*/
+/*Sets styling for the footer that is across the webpage*/
+footer{
+    background-color: #00703C;;
+    color: white;
+    font-weight: bold;
+    padding: 50px;
+    padding-top: 25px;
+    text-align: left;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.footercopyright{
+    text-align: left;
+    white-space: nowrap;
+}
+.footersocials{
+    text-align: right;
+    white-space: nowrap;
+}
+/*----------------------------------------------------------------END FOOTER CSS----------------------------------------------------------------*/
