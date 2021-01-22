@@ -1,1 +1,1 @@
-first init
+This is a project for ITIS 5166
