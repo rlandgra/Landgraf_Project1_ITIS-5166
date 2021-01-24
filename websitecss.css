@@ -101,6 +101,34 @@ hr{
     min-width: 650px;
     padding: 50px;
 }
+.connectionAll table{
+    margin-left: 20%;
+    margin-right: auto;
+}
+.connectionAll th{
+    font-size: 20pt;
+    padding-right: 300px;
+    text-align: left;
+}
+.connectionAll td{
+    padding-right: 60px;
+    padding-left: 0px;
+    font-weight: normal;
+    padding-top: 10px;
+    font-size: 13pt;
+}
+.connectionAll b{
+    font-size: 14pt;
+}
+
+.connectionAll button{
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color:  #B3A369;
+}
 /*----------------------------------------------------------------END CONNECTION CSS----------------------------------------------------------------*/
 
 
@@ -120,16 +148,16 @@ hr{
     min-width: 650px;
     padding: 50px;
 }
-table{
+.connectionsAll table{
     margin-left: auto;
     margin-right: auto;
 }
-th{
+.connectionsAll th{
     font-size: 30pt;
     padding: 50px;
     padding-bottom: 10px;
 }
-td{
+.connectionsAll td{
     font-size: 15pt;
     padding: 10px;
 }
