@@ -27,8 +27,27 @@
 
 	<main>
         <div class = newConnectionAll>
-            <img src="images/placeholder.png" alt="placeholder" height="1000">
-
+            <form action="#">
+                <label for="topic">Topic: </label><br>
+                <input type="text" id="topic" name="topic" placeholder="Topic" required><br>
+                <label for="title">Title: </label><br>
+                <input type="text" id="title" name="title" placeholder="Title" required><br>
+                <label for="host">Host: </label><br>
+                <input type="text" id="host" name="host" placeholder="Host" required><br>
+                <label for="details">Details: </label><br>
+                <textarea placeholder="Description of the event." id="details" name="details" required> </textarea><br>
+                <label for="where">Where: </label><br>
+                <input type="text" id="where" name="where" placeholder="Location" required><br>
+                <label for="when">When: </label><br>
+                <input type="date" id="when" name="when" required><br>
+                <label for="start">Start: </label><br>
+                <input type="time" id="start" name="start" required><br>
+                <label for="end">End: </label><br>
+                <input type="time" id="end" name="end" required><br>
+                <label for="imageurl">Image URL: </label><br>
+                <input type="text" id="imageurl" name="imageurl" placeholder="imageURL" required><br>
+                <input type="submit" value="Create Connection">
+            </form>
         </div>
     </main>
 

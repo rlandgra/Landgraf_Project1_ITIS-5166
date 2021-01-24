@@ -176,7 +176,7 @@ color: black;
 .newConnectionAll{
     background-color: #d4d4d4;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     padding: 15px ;
     text-decoration: none;
     border-radius: 60px;
@@ -187,6 +187,50 @@ color: black;
     margin-bottom: 20px;
     min-width: 650px;
     padding: 50px;
+}
+
+.newConnectionAll form{
+    margin-left: 30%;
+}
+.newConnectionAll input[type=text]{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 10pt;
+}
+.newConnectionAll input[type=date]{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 10pt;
+}
+.newConnectionAll input[type=time]{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 10pt;
+}
+.newConnectionAll input[type=submit]{
+    background-color: #B3A369;
+    float: right;
+    margin-right: 150px;
+    width: 150px;
+    height: 30px;
+}
+.newConnectionAll textarea{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 10pt;
+    height: 65px;
+    width: 50%;
 }
 /*----------------------------------------------------------------END NEWCONNECTION CSS----------------------------------------------------------------*/
 
