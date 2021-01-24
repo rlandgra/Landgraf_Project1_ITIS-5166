@@ -120,6 +120,27 @@ hr{
     min-width: 650px;
     padding: 50px;
 }
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    font-size: 30pt;
+    padding: 50px;
+    padding-bottom: 10px;
+}
+td{
+    font-size: 15pt;
+    padding: 10px;
+}
+.connectionsAll a{
+text-decoration: none;
+color: black;
+}
+.connectionsAll a:hover {
+    background-color: #B3A369;
+    font-size: 20pt;
+  }
 /*----------------------------------------------------------------END CONNECTIONS CSS----------------------------------------------------------------*/
 
 
@@ -157,9 +178,15 @@ footer{
 .footercopyright{
     text-align: left;
     white-space: nowrap;
+    text-decoration: none;
 }
 .footersocials{
     text-align: right;
     white-space: nowrap;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
 }
 /*----------------------------------------------------------------END FOOTER CSS----------------------------------------------------------------*/
